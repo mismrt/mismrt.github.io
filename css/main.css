@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.animated {
+  animation-duration: 0.4;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 50px;
+  position: relative;
+  width: 100%;
+}
+
+.hero {
+  background: url('../img/hero.jpg') center center no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.nav {
+  bottom: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav .fa {
+  margin-right: 10px;
+}
+
+.logo {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.15);
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -125px;
+  padding: 50px;
+  width: 250px;
+  z-index: 9;
+}
+
+.logo img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.main {
+  padding: 180px 50px 50px 50px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.bios {
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.bios td {
+  padding: 0 20px;
+}
+
+.bios td:first-child {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.bios td:last-child {
+  padding-left: 40px;
+  padding-right: 0;
+}
+
+.bios tr:not(:last-child) td {
+  padding-bottom: 40px;
+}
+
+.bios figure {
+  margin-bottom: 20px;
+}
+
+.bios img {
+  border-radius: 50%;
+  box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.bios figcaption {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.contact-icon {
+  border-right: 1px solid #212121;
+  color: inherit;
+  font-size: 30px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.contact-icon:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
